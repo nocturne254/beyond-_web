@@ -1,0 +1,25 @@
+<svg width="180" height="180" viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark space background -->
+  <rect width="180" height="180" fill="#0a0a0a" rx="20"/>
+  
+  <!-- Main star -->
+  <path d="M90 20 L110 70 L160 70 L120 100 L140 150 L90 120 L40 150 L60 100 L20 70 L70 70 Z" 
+        fill="#ffd700" 
+        stroke="#fff" 
+        stroke-width="2"/>
+  
+  <!-- Smaller stars around */
+  <circle cx="30" cy="40" r="2" fill="#ffffff" opacity="0.8"/>
+  <circle cx="150" cy="30" r="1.5" fill="#ffffff" opacity="0.6"/>
+  <circle cx="160" cy="120" r="1" fill="#ffffff" opacity="0.7"/>
+  <circle cx="25" cy="140" r="1.5" fill="#ffffff" opacity="0.5"/>
+  <circle cx="140" cy="160" r="1" fill="#ffffff" opacity="0.6"/>
+  
+  <!-- BW text -->
+  <text x="90" y="170" 
+        font-family="Arial, sans-serif" 
+        font-size="24" 
+        font-weight="bold" 
+        text-anchor="middle" 
+        fill="#ffffff">BW</text>
+</svg>
