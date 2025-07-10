@@ -1,0 +1,48 @@
+{
+  "name": "beyond-web",
+  "version": "1.0.0",
+  "description": "Beyond - Web-based AR Star Gazing Application",
+  "private": true,
+  "scripts": {
+    "dev": "npx next dev",
+    "dev-mobile": "npx next dev -H 0.0.0.0 -p 8080",
+    "build": "npx next build",
+    "start": "npx next start",
+    "lint": "npx next lint",
+    "type-check": "npx tsc --noEmit",
+    "install-legacy": "npm install --legacy-peer-deps"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "typescript": "5.5.4",
+    "@types/node": "20.14.15",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "tailwindcss": "3.4.7",
+    "autoprefixer": "10.4.19",
+    "postcss": "8.4.40",
+    "lucide-react": "0.427.0",
+    "date-fns": "3.6.0"
+  },
+  "devDependencies": {
+    "eslint": "8.57.0",
+    "eslint-config-next": "14.2.5"
+  },
+  "keywords": [
+    "astronomy",
+    "stars",
+    "constellation",
+    "sky-map",
+    "education",
+    "nextjs",
+    "typescript"
+  ],
+  "author": "Jeff & Danny - Beyond Collaboration",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jeff9497/beyond-_web.git"
+  }
+}

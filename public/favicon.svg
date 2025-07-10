@@ -1,0 +1,18 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark background -->
+  <rect width="32" height="32" fill="#0a0a0a"/>
+  
+  <!-- Star shape -->
+  <path d="M16 2 L20 12 L30 12 L22 18 L26 28 L16 22 L6 28 L10 18 L2 12 L12 12 Z" 
+        fill="#ffd700" 
+        stroke="#fff" 
+        stroke-width="0.5"/>
+  
+  <!-- BW text -->
+  <text x="16" y="30" 
+        font-family="Arial, sans-serif" 
+        font-size="6" 
+        font-weight="bold" 
+        text-anchor="middle" 
+        fill="#ffffff">BW</text>
+</svg>
