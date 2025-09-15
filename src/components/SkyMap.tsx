@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useRef, useEffect, useState } from 'react'
+import React, { useRef, useEffect, useState, useMemo } from 'react'
 import { Star, Location, CelestialObject, DeepSkyObject } from '@/types/astronomy'
 import { getStarSize } from '@/utils/astronomyCalculations'
 
