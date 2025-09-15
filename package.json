@@ -25,7 +25,7 @@
     "postcss": "8.4.40",
     "lucide-react": "0.427.0",
     "date-fns": "3.6.0",
-    "satellite.js": "5.0.1"
+    "satellite.js": "5.0.3"
   },
   "devDependencies": {
     "eslint": "8.57.0",
